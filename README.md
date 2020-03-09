@@ -9,6 +9,8 @@ As their data engineer, you are tasked with building an ETL pipeline that extrac
 ### Data Model
 **Star Schema** data model - 1 Fact Table and 4 Dimension Tables:
 
+![ERD](https://github.com/jamesli0512/udacity-dend-project-3/blob/master/ERD.JPG)
+
 #### Fact Table:
 **songplays_fact** - records in event data associated with song plays i.e. records with page NextSong
 songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
