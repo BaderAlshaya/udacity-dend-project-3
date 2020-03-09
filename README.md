@@ -28,3 +28,9 @@ artist_id, name, location, lattitude, longitude
 
 **time_dim** - timestamps of records in songplays broken down into specific units
 start_time, hour, day, week, month, year, weekday
+
+### AWS Redshift set-up
+AWS Redshift is used in ETL pipeline as the DB solution. Used set-up in the Project-3 is as follows:
+
+* Cluster: 4x dc2.large nodes
+* Location: US-West-2 (as Project-3's AWS S3 bucket)
